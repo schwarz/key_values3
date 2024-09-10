@@ -16,7 +16,7 @@ If the file you want to read looks something like this:
         "someString"    "hello"
     }
 ```
-then you probably are looking at an older [KeyValues](https://developer.valvesoftware.com/wiki/KeyValues) version and need a [VDF parser]() instead.
+then you probably are looking at an older [KeyValues](https://developer.valvesoftware.com/wiki/KeyValues) version and need a [VDF parser](https://hex.pm/packages/vdf) instead.
 
 ## Installation
 
