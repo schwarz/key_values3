@@ -1,0 +1,6 @@
+{
+	_class = "ability_incendiary_projectile"
+	m_nAbilityBehaviors = "CITADEL_ABILITY_BEHAVIOR_PROJECTILE | CITADEL_ABILITY_BEHAVIOR_DISPLAYS_DAMAGE_IMPACT | CITADEL_ABILITY_BEHAVIOR_SHOW_CASTrange
+	RANGE_AS_SAT_SPHERE_WHILE_CASTING"
+	// Valve put a newline in this string just above (was present late August/early September 2024)
+}
