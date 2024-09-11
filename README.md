@@ -33,7 +33,7 @@ end
 ## Usage
 
 ``` elixir
-iex(1)> KeyValues3.decode!("{m_strValue = \"0\"}")
+iex(1)> KeyValues3.decode_value!("{m_strValue = \"0\"}")
 %{"m_strValue" => "0"}
 ```
 
