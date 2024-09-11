@@ -154,7 +154,7 @@ defmodule KeyValues3.Parser do
       times(
         ignore(whitespace())
         |> choice([key_value_pair(), ignore(line_comment()), ignore(block_comment())]),
-        min: 1
+        min: 0
       )
       |> reduce({:pairs_to_map, []})
     )
