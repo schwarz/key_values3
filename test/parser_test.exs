@@ -42,7 +42,7 @@ defmodule ParserTest do
   end
 
   test "empty object" do
-    assert {:ok, [], "", _, _, _} = KeyValues3.Parser.value("{}")
+    assert {:ok, [%{}], "", _, _, _} = KeyValues3.Parser.value("{}")
   end
 
   test "simple object" do
