@@ -1,7 +1,7 @@
 defmodule KeyValues3.MixProject do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.1"
   @url "https://github.com/schwarz/key_values3"
   def project do
     [
